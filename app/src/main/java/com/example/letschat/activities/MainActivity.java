@@ -1,7 +1,5 @@
 package com.example.letschat.activities;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
@@ -9,7 +7,8 @@ import android.os.Bundle;
 import android.util.Base64;
 import android.widget.Toast;
 
-import com.example.letschat.R;
+import androidx.appcompat.app.AppCompatActivity;
+
 import com.example.letschat.databinding.ActivityMainBinding;
 import com.example.letschat.utilities.Constants;
 import com.example.letschat.utilities.PreferenceManager;
