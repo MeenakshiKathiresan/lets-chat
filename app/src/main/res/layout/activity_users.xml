@@ -25,6 +25,7 @@
         android:layout_height="wrap_content"
         android:text="Select user"
         android:textColor="@color/white"
+        android:textSize="@dimen/_14ssp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="@+id/imageBack"
         app:layout_constraintEnd_toEndOf="parent"

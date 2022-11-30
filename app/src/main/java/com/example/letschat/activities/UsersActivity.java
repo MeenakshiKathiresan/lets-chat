@@ -2,7 +2,9 @@ package com.example.letschat.activities;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
+import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -30,6 +32,7 @@ public class UsersActivity extends AppCompatActivity implements UserListener {
         setContentView(binding.getRoot());
         preferenceManager = new PreferenceManager(getApplicationContext());
         setListeners();
+        getUsers();
     }
 
     private void setListeners(){
@@ -79,6 +82,9 @@ public class UsersActivity extends AppCompatActivity implements UserListener {
         binding.textErrorMessage.setVisibility(View.VISIBLE);
 
 
+    }
+    private void showToast(String message){
+        Toast.makeText(getApplicationContext(), message, Toast.LENGTH_SHORT).show();
     }
 
 
