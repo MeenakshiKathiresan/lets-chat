@@ -25,6 +25,7 @@
         <entry key="..\:/Users/unhmguest/Documents/chat-app/app/src/main/res/layout/activity_main.xml" value="0.1" />
         <entry key="..\:/Users/unhmguest/Documents/chat-app/app/src/main/res/layout/activity_users.xml" value="0.1" />
         <entry key="..\:/Users/unhmguest/Documents/chat-app/app/src/main/res/layout/item_container_received_message.xml" value="0.1" />
+        <entry key="..\:/Users/unhmguest/Documents/chat-app/app/src/main/res/layout/item_container_recent_conversation.xml" value="0.22" />
         <entry key="..\:/Users/unhmguest/Documents/chat-app/app/src/main/res/layout/item_container_sent_message.xml" value="0.1" />
         <entry key="..\:/Users/unhmguest/Documents/chat-app/app/src/main/res/layout/item_container_user.xml" value="0.1" />
       </map>
