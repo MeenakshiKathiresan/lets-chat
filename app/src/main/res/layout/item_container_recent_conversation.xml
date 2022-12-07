@@ -48,6 +48,7 @@
         android:maxLines="1"
         android:textColor="@color/secondary_text"
         android:textSize="@dimen/_12ssp"
+        android:paddingTop="@dimen/_18sdp"
         app:layout_constraintBottom_toBottomOf="@id/viewSupporter"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textName"
