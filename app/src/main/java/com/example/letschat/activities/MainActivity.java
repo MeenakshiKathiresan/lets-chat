@@ -58,7 +58,7 @@ public class MainActivity extends AppCompatActivity {
 
     private void setListeners(){
         // sign out
-        binding.imageProfile.setOnClickListener(v -> signOut());
+        binding.imageProfile.setOnClickListener(v -> openProfile());
 
         // start new conversation
         binding.fabNewChat.setOnClickListener( v -> {
@@ -144,6 +144,10 @@ public class MainActivity extends AppCompatActivity {
         documentReference.update(Constants.KEY_FCM_TOKEN, token)
 
                 .addOnFailureListener(e ->showToast("unable to update token"));
+    }
+
+    private void openProfile(){
+        startActivity(new Intent(getApplicationContext(), ProfileActivity.class));
     }
 
     private void signOut(){
