@@ -21,8 +21,11 @@
         <entry key="..\:/Users/unhmguest/Documents/chat-app/app/src/main/res/drawable/background_image.xml" value="0.1" />
         <entry key="..\:/Users/unhmguest/Documents/chat-app/app/src/main/res/drawable/background_input.xml" value="0.1" />
         <entry key="..\:/Users/unhmguest/Documents/chat-app/app/src/main/res/drawable/background_received_message.xml" value="0.1" />
+        <entry key="..\:/Users/unhmguest/Documents/chat-app/app/src/main/res/drawable/login_background.xml" value="0.1" />
         <entry key="..\:/Users/unhmguest/Documents/chat-app/app/src/main/res/layout/activity_chat.xml" value="0.1" />
         <entry key="..\:/Users/unhmguest/Documents/chat-app/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/unhmguest/Documents/chat-app/app/src/main/res/layout/activity_sign_in.xml" value="0.1" />
+        <entry key="..\:/Users/unhmguest/Documents/chat-app/app/src/main/res/layout/activity_sign_up.xml" value="0.1" />
         <entry key="..\:/Users/unhmguest/Documents/chat-app/app/src/main/res/layout/activity_users.xml" value="0.1" />
         <entry key="..\:/Users/unhmguest/Documents/chat-app/app/src/main/res/layout/item_container_received_message.xml" value="0.1" />
         <entry key="..\:/Users/unhmguest/Documents/chat-app/app/src/main/res/layout/item_container_recent_conversation.xml" value="0.22" />
