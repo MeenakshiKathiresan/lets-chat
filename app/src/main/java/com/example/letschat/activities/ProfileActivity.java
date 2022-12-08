@@ -48,6 +48,7 @@ public class ProfileActivity extends AppCompatActivity {
         binding.textSignOut.setOnClickListener(v -> signOut());
         binding.imageProfile.setOnClickListener(v -> updateProfilePicture());
         binding.buttonSave.setOnClickListener(v -> saveAndExit());
+        binding.imageBack.setOnClickListener(v -> onBackPressed());
     }
 
     private void showToast(String message){
@@ -91,9 +92,11 @@ public class ProfileActivity extends AppCompatActivity {
 
         preferenceManager.putString(Constants.KEY_NAME, binding.inputName.getText().toString());
         preferenceManager.putString(Constants.KEY_IMAGE, encodedImage);
+        preferenceManager.putString(Constants.KEY_STATUS, binding.status.getText().toString());
 
         user.put(Constants.KEY_NAME, binding.inputName.getText().toString());
         user.put(Constants.KEY_IMAGE, encodedImage);
+        user.put(Constants.KEY_STATUS, binding.status.getText().toString());
 
         database.collection(Constants.KEY_COLLECTION_USERS)
                 .document(preferenceManager.getString(Constants.KEY_USER_ID))
@@ -125,6 +128,7 @@ public class ProfileActivity extends AppCompatActivity {
         binding.imageProfile.setImageBitmap(bitmap);
 
         binding.inputName.setText(preferenceManager.getString(Constants.KEY_NAME));
+        binding.status.setText(preferenceManager.getString(Constants.KEY_STATUS));
     }
 
     private void signOut(){

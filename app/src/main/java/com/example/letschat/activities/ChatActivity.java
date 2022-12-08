@@ -49,8 +49,6 @@ public class ChatActivity extends AppCompatActivity {
         loadReceiverDetails();
         init();
         listenMessages();
-
-
     }
 
     private void init() {

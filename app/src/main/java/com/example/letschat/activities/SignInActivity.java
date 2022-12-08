@@ -62,6 +62,7 @@ public class SignInActivity extends AppCompatActivity {
                        preferenceManager.putBoolean(Constants.KEY_IS_SIGNED_IN, true);
                        preferenceManager.putString(Constants.KEY_USER_ID, documentSnapshot.getId());
                        preferenceManager.putString(Constants.KEY_NAME, documentSnapshot.getString(Constants.KEY_NAME));
+                       preferenceManager.putString(Constants.KEY_STATUS, documentSnapshot.getString(Constants.KEY_STATUS));
                        preferenceManager.putString(Constants.KEY_IMAGE, documentSnapshot.getString(Constants.KEY_IMAGE));
 
                        Intent intent = new Intent(getApplicationContext(), MainActivity.class);
