@@ -32,6 +32,12 @@ android {
         viewBinding true
 
     }
+
+    testOptions {
+        // Used for Unit testing Android dependent elements in /test folder
+        unitTests.includeAndroidResources  = true
+        unitTests.returnDefaultValues = true
+    }
 }
 
 dependencies {
@@ -40,10 +46,10 @@ dependencies {
     implementation 'com.google.android.material:material:1.7.0'
     implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
     implementation 'junit:junit:4.12'
-    implementation 'junit:junit:4.12'
     testImplementation 'junit:junit:4.13.2'
     androidTestImplementation 'androidx.test.ext:junit:1.1.4'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.0'
+
 
     // Scalable Size Unit (support for different screen sizes)
     implementation 'com.intuit.sdp:sdp-android:1.0.6'

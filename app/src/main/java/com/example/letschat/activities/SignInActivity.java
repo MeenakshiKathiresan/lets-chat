@@ -90,7 +90,7 @@ public class SignInActivity extends AppCompatActivity {
         Toast.makeText(getApplicationContext(), message, Toast.LENGTH_SHORT).show();
     }
 
-    private Boolean isValidSignInDetails(){
+    public Boolean isValidSignInDetails(){
         if(binding.inputEmail.getText().toString().trim().isEmpty() ||
                 binding.inputPassword.getText().toString().trim().isEmpty()
         ){
