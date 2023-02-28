@@ -39,7 +39,7 @@
 ## Acknowlegments 
 
 - University of New Hampshire 
-- TakaHide Ohkami 
+- Professor TakaHide Ohkami 
 - Fall 2022
 
 
