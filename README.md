@@ -45,7 +45,6 @@
 
 - University of New Hampshire 
 - TakaHide Ohkami 
-- COMP 730 / COMP 830 
 - Fall 2022
 
 
