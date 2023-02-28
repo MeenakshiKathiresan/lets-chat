@@ -22,13 +22,8 @@
 - Android Studio 
 - Java
 
-## Installing 
-
-- Open terminal in Android Studio
-- git clone https://github.com/meenakshikathiresan3
-
-
-## Executing the program
+## Installing and Executing the program
+- Clone this repository
 - Start your emulator or connect your device into Andriod Studio 
 - Click run.
 
